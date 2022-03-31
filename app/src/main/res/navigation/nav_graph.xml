@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/LogInFragment"
+        android:name="com.example.food.LogInFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_log_in"/>
+    <fragment
+        android:id="@+id/SignUpFragment"
+        android:name="com.example.food.SignUpFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_sign_up"/>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.food.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.food.ProfileFragment"
+        android:label="ProfileFragment" />
+    <fragment
+        android:id="@+id/shoppingCartFragment"
+        android:name="com.example.food.ShoppingCartFragment"
+        android:label="fragment_shopping_cart"
+        tools:layout="@layout/fragment_shopping_cart" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.food.SearchFragment"
+        android:label="SearchFragment" />
+</navigation>

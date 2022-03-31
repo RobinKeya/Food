@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.food.MainActivity">
+    <item
+        android:id="@+id/homeFragment"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/shoppingCartFragment"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_shopping_cart"
+        app:showAsAction="always" />
+    <item android:id="@+id/placeholder"
+        android:title=""/>
+    <item
+        android:id="@+id/SearchFragment"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_search_24"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/profileFragment"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_person_24"
+        app:showAsAction="always" />
+
+</menu>
